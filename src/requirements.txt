@@ -1,0 +1,18 @@
+# requirements.txt
+
+# Library untuk scanning dan analisis jaringan
+scapy==2.5.0
+python-nmap==0.7.1
+
+# Library untuk visualisasi data
+pandas==2.2.2
+matplotlib==3.9.1
+
+# Library untuk progress bar
+tqdm==4.66.1
+
+# Library untuk API calls (GeoIP, Threat Intelligence, dll.)
+requests==2.31.0
+
+# Library untuk membaca file .env (opsional, jika menggunakan API keys)
+python-dotenv==1.0.0
