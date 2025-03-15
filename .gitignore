@@ -1,5 +1,15 @@
-# Object file
-*.o
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
 
-# Ada Library Information
-*.ali
+# IDE
+.vscode/
+.idea/
+
+# Output Files
+scan_report.html
+network_map.png
